@@ -12,8 +12,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">  </script>
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
 
 
@@ -110,12 +114,32 @@
               à tout moment et partout
             </p>
             <br>
-            <div class="d-flex p-2 bd-highlight"><button type="button" class="btn  btn-lg btn-block "
+            <div>
+              <button type="button" class="btn  btn-lg btn-block "
                 style=" background-color: #198754; color: white;  font-size: 21px;"><a href="manuel.pdf" download
-                  target='_blank' style="color: white; text-decoration: none;">Télécharger le guide de
-                  l'utilisateur</a></button></div>
+                  target='_blank' style="color: white; text-decoration: none;">Manuel</a></button>
 
-          </div>
+          
+            <button type="button" class="btn  btn-lg btn-block "
+                    style=" background-color: #198754; color: white;  font-size: 21px;">
+                    <a class="popup-video" href="maitre.mp4"  style="color: white; text-decoration: none;">Video</a>
+                  </button>
+            </div>
+            
+    
+          
+          <script>
+          $(function() {
+              $('.popup-video').magnificPopup({
+                  disableOn: 700,
+                  type: 'iframe',
+                  mainClass: 'mfp-fade',
+                  removalDelay: 160,
+                  preloader: false,
+                  fixedContentPos: false
+              });
+          });
+          </script>
 
         </div>
       </div>
