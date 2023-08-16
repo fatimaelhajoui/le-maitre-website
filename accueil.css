@@ -18,10 +18,19 @@ h2{
     padding: 20px;
 }
 
+h1{
+  font-size: 33px;
+   font-weight: bold;
+}
 
 .slide{
    padding: 20px;
   }
+ 
+
+ 
+
+
 footer {
     background: #75df7b;
   }
@@ -43,6 +52,10 @@ footer {
     iframe {
       width: 300px;
       height: 250px;
+    }
+    
+    h1 {
+      font-size: 20;
     }
  
 }
